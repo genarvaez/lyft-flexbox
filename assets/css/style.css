@@ -89,50 +89,35 @@
 	
 	color: whitesmoke;
 }
-
-
-/*
-.registro.flex-container{
-	background: url('../images/home.jpg');
-	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 610px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -100;
-	justify-content: flex-end;
-	align-items: center;
-}
-.sign-up{
+/*BOX REGISTER*/
+.register{
 	background-color: white;
 	flex-direction: column;
 	padding: 60px 103px 60px 60px;
 	margin-top: 60px;
 }
-.sign-up h1{
+.register h1{
 	color: #352384;
 	padding-bottom: 5px;
 	font-size: 2.5em;
 }
-.sign-up p{
+.register p{
 	color: #352384;
 	font-weight: 300;
 	font-size: 0.9em;
 	letter-spacing: 5px
 }
-.sign-up input[type="text"]{
+.register input[type="text"]{
 	border: none;
 	border-bottom: 1px solid #352384;
 	margin: 20px 0px;
 	padding: 10px 210px 10px 0;
 }
-.sign-up input[type="text"]::-webkit-input-placeholder{ 
+.register input[type="text"]::-webkit-input-placeholder{ 
 	font-size: 1.2em;
 	color: #D6EAF8;
 }
-.sign-up button{
+.register button{
 	background-color: #FF00BF;
 	border: none;
 	height: 50px;
@@ -142,28 +127,83 @@
 	font-weight: bolder;
 	font-size: 1em;
 }
-.sign-up a{
+.register a{
 	margin: 10px;
 	color: #728099;
 	font-weight: 300;
 }
-.sign-up h6{
+.register h6{
 	padding: 20px 0;
 	color: #85C1E9 ;
 	font-weight: 300;
 }
-.sign-up h6 a{
+.register h6 a{
 	color: #FF00BF;
 	font-weight: 300;
 }
-#info{
-	background: linear-gradient(to bottom,#76278f,#2b1e66);
+/*INFORMATION*/
+.info{
+	background: linear-gradient(#76278f,#2b1e66);
+	align-items: flex-start;
 }
-
-#prueba{
+.information.container{
 	flex-direction: column;
-	background: linear-gradient(to bottom,#76278f,#2b1e66);
-	margin: 20px;
-
+	margin: 80px 0 80px 150px;
+	color: white;
 }
-*/
+.info img{
+	width: 50%;
+}
+.information.container h1{
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-weight: 400;
+}
+.information.container p{
+	margin-bottom: 50px;
+	font-weight: 300;
+}
+.information.container h1~h1~h1{
+	margin-bottom: 0;
+}
+/*VIDEO*/
+.media-info{
+	margin: 0px 60px;
+	align-items: center;
+}
+.media.container{
+	align-items: center;
+}
+.media-info h6{
+	margin: 20px 0;
+}
+.media-info h1{
+	margin-bottom: 50px;
+	font-size: 1.75rem;
+}
+.media-info p{
+	font-weight: 300;
+}
+
+iframe{
+	width: 220%;
+	height: 420px;
+}
+#vid2{
+	width: 220%;
+}
+.full-width{
+	width: 820px;
+}
+.media-info a{
+	color: #FF00BF;
+	text-decoration: none;
+}
+.media-info a:hover{
+	text-decoration: underline;
+	color: #6A0888;
+}
+.media-info a~h1{
+	margin: 15px 0 15px;
+}
+/*FOOTER*/
