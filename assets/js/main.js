@@ -15,3 +15,8 @@ window.addEventListener('scroll', function (e) {
             signUp.classList.add("hide");
         }
     });
+var register = document.getElementById("register");
+var inputPhone = document.getElementById("inputPhone");
+inputPhone.addEventListener("click", function(){
+  
+})

@@ -107,7 +107,7 @@
 	font-size: 0.9em;
 	letter-spacing: 5px
 }
-.register input[type="text"]{
+input[type="text"]{
 	border: none;
 	border-bottom: 1px solid #352384;
 	margin: 20px 0px;
