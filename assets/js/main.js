@@ -46,3 +46,16 @@ validate.forEach(function(e,i){
         }
     })
 })
+/*intentando validacion de formulario, por falta de tiempo no pude terminar
+signButton.addEventListener("click", function(){
+    if(!(/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/.test(email.value))){
+        show[2].classList.add("noshow");
+    }
+    else{
+        document.getElementById("phone").value == "";
+        document.getElementById("name").value == "";
+        document.getElementById("email").value == "";
+        document.getElementById("city").value == "";
+        }
+})
+*/
